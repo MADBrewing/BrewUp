@@ -2,7 +2,8 @@
     package="com.example.brewup">
    <application
         android:label="brewup"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
+        <uses-permission android:name="android.permission.INTERNET" />
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
